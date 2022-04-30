@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700;800;900&family=Open+Sans:wght@400;500;600&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+
+body{
+  background-color:#36454f;
+  font-family: 'Roboto', sans-serif;
+
+}
+.card{
+ 
+display: flex;
+justify-content: space-between;
+padding: 1rem 0;
+
+}
+.card h1{
+  color:white;
+  position: relative;
+  margin-left: 70px;
+}
+ .card .cards  a{
+  
+  color: white;
+  text-decoration: none;
+padding-left: 20px;
+margin-right: 30px;
+margin-top: 30px;
+
+
+}
+.card2{
+  background-color: white;
+ 
+  color: black;
+  border: white;
+  border-radius: 5px;
+  font-size: 20px;
+  padding-left: 10px;
+}
+
+ .card1{
+  background-color: gray;
+  color: white;
+  margin-left: 10px;
+font-size: 20px;
+border: 2px solid grey;
+border-radius: 5px;
+}
+.image {
+
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-gap: 20px;
+  text-align: center;
+  align-items: center;
+
+}
+
+
+img{
+  width: 200px;
+  height:300px;
+ 
+}
+ .image2{
+ display: flex;
+ justify-content: space-around;
+}
+.image2 p{
+  text-align: center;
+}
+.image3{
+  display: flex;
+  justify-content: space-around;
+
+}
+.image3 p{
+  text-align: center;
+}
+.image4{
+  display: flex;
+  justify-content: space-around;
+  
+}
+.image4 p{
+  text-align: center;
+}
+h1{
+  color: black;
+  margin-left: 75px;
+}
+.image5{
+  display: flex;
+  justify-content: space-around;
+
+}
+.image5 p{
+  text-align: center;
+}
+ 
+.image6{
+  display: flex;
+  justify-content: space-around;
+}
+.image6 p{
+  text-align: center;
+}
+p1{
+  margin-left: 75px;
+  font-size: 20px;
+}
+
+.image8 img{
+  float: left;
+padding: 10px;
+  margin-left: 70px;
+
+}
+.image9{
+  padding: 20px;
+  font-size: 20px;
+}
+.image9 p2{
+  color: white;
+ 
+}
+.image9 p3{
+  color:blue;
+  
+}
+.image9 p4{
+  color: white;
+}
+.but{
+  color:wheat;
+  font-size: 20px;
+  border-radius: 5px;
+  border: 2px black;
+  background-color: black;
+
+}
+.sandeep{
+  float: left;
+}
+.sandeep p{
+margin-left: 70px;
+width: 50%;
+font-size: 20px;
+color: white;
+}
+.sandeep h1{
+  color:white;
+}
+
+p{
+  font-size: 1rem;
+  color: #fff;
+  font-weight: bold;
+}
+
+/* .sandeep1 {
+  
+  
+ 
+}
+.sandeep1 p {
+  margin-left: 70px;
+}
+.sandeep1 img{
+  width: 120px;
+  height: 150px;
+  display: flex;
+  justify-content: space-between
+} */
+h6{
+margin-top: 10px;
+  margin-left: 70px;
+  font-size: 40px;
+  float: left;
+  padding-right: 1rem;
+}
+
+  
