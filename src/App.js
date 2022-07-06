@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import Moviedb from './component/Moviedb';
 import {
-  BrowserRouter,
+  BrowserRouter, 
   Routes,
   Route,
 } from "react-router-dom";
@@ -28,6 +28,7 @@ function App() {
       <Route path="/movieDetails" element={<SinglePageMovieDetails />} />
     </Routes>
   </div>
+
   </BrowserRouter>,
   </>
    

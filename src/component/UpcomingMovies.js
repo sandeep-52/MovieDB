@@ -26,7 +26,7 @@ const getUpComingMovie = async() => {
 }
   } catch(err){
     console.log(err);
-}}
+}} 
 
   return (
     <>

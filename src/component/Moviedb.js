@@ -46,11 +46,10 @@ const Moviedb = () => {
     
 <div className='image'>
 {popularMovies.map((data)=>{
-    return  <Link to={{
-        pathname : "/movieDetails",
-        state : {
+    return  <Link to= "/movieDetails" 
+        state ={ {
             movie_id : data.id
-        }
+        
     }}> <div  ><img src={IMAGE_BASE_DOMAIN + data.backdrop_path } alt="" />
 <p>{data.original_title}</p>
 <p>{data.vote_average}</p></div></Link>

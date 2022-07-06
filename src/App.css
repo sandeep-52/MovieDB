@@ -184,4 +184,16 @@ margin-top: 10px;
   padding-right: 1rem;
 }
 
-  
+
+
+/* media query */
+
+@media(max-width:1200px){
+  html{
+      font-size: 55%;
+      
+  } 
+}
+@media(max-width:991px){
+
+}
